@@ -1,25 +1,17 @@
-Berikut adalah contoh langkah dan deskripsi untuk menjalankan project laravel 12
-
----
-
-# Proyek Laravel 12 - Bengkod WD01
-
-Nama: **Wildan Devanata Rizkyvianto**  
-NIM: **A11.2022.14593**  
-Kelas: **BENGKOD WD01**
-````markdown
-Berikut adalah langkah-langkah dan deskripsi untuk menjalankan project UAS Capstone Pemrograman Sisi Server
+Berikut adalah contoh langkah dan deskripsi untuk menjalankan UAS Capstone Project
 
 ---
 
 # UAS Capstone Project - Pemrograman Sisi Server
 
-**Nama**: Wildan Devanata Rizkyvianto  
-**NIM**: A11.2022.14593  
-**Kelas**: A11.4601  
-**Mata Kuliah**: Pemrograman Sisi Server
+Nama: **Wildan Devanata Rizkyvianto**  
+NIM: **A11.2022.14593**  
+Kelas: **A11.4601**
 
----
+Mata Kuliah: **Pemrograman Sisi Server**
+
+````markdown
+Berikut adalah langkah-langkah dan deskripsi untuk menjalankan project UAS Capstone Pemrograman Sisi Server
 
 ## Langkah-Langkah Instalasi
 
