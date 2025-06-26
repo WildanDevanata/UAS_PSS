@@ -1,5 +1,12 @@
-Berikut adalah versi `README.md` kamu yang diformat **menyerupai contoh pada gambar**, dengan markdown yang rapi dan profesional:
+Berikut adalah contoh langkah dan deskripsi untuk menjalankan project laravel 12
 
+---
+
+# Proyek Laravel 12 - Bengkod WD01
+
+Nama: **Wildan Devanata Rizkyvianto**  
+NIM: **A11.2022.14593**  
+Kelas: **BENGKOD WD01**
 ````markdown
 Berikut adalah langkah-langkah dan deskripsi untuk menjalankan project UAS Capstone Pemrograman Sisi Server
 
