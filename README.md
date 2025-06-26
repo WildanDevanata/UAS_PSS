@@ -1,50 +1,68 @@
-Berikut versi lengkap dari `README.md` yang sudah ditambahkan judul dan identitas:
+Berikut adalah versi `README.md` kamu yang diformat **menyerupai contoh pada gambar**, dengan markdown yang rapi dan profesional:
 
 ````markdown
-# UAS Capstone Project Pemrograman Sisi Server
+Berikut adalah langkah-langkah dan deskripsi untuk menjalankan project UAS Capstone Pemrograman Sisi Server
 
-**Nama**: WILDAN DEVANATA RIZKYVIANTO  
+---
+
+# UAS Capstone Project - Pemrograman Sisi Server
+
+**Nama**: Wildan Devanata Rizkyvianto  
 **NIM**: A11.2022.14593  
 **Kelas**: A11.4601  
 **Mata Kuliah**: Pemrograman Sisi Server
 
 ---
 
-## 🐳 Menjalankan Aplikasi dengan Docker
+## Langkah-Langkah Instalasi
 
-Ikuti langkah-langkah berikut untuk menjalankan project ini menggunakan Docker:
+Untuk memulai proyek ini setelah Anda melakukan clone dari GitHub, ikuti langkah-langkah berikut:
 
-### 1. Build dan Jalankan Container
+### 1. Clone repository dari GitHub
+
+Clone repository ke dalam folder lokal Anda menggunakan perintah berikut:
+
+```bash
+git clone https://github.com/WildanDevanata/UAS_PSS.git
+````
+
+Masuk ke direktori project:
+
+```bash
+cd UAS_PSS
+```
+
+### 2. Build dan Jalankan Docker
 
 ```bash
 docker compose up --build
-````
+```
 
-### 2. Masuk ke Shell Container Django
+### 3. Masuk ke Shell Container Django
 
 Klik kanan pada container bernama `uas-pss-django`, lalu pilih **Attach Shell**
-Atau gunakan perintah berikut di terminal:
+Atau jalankan:
 
 ```bash
 docker exec -it uas-pss-django bash
 ```
 
-### 3. Jalankan Perintah Migrasi Database
+### 4. Migrasi Database
 
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 4. Buat Superuser
+### 5. Buat Superuser
 
 ```bash
 python manage.py createsuperuser
 ```
 
-Masukkan username, email, dan password sesuai kebutuhan.
+Masukkan **username**, **email**, dan **password** saat diminta.
 
-### 5. Jalankan Skrip Import Data
+### 6. Jalankan Import Data
 
 ```bash
 python code/importer2.py
@@ -52,36 +70,28 @@ python code/importer2.py
 
 ---
 
-## 🧑‍💻 Akses Halaman Admin
+## Akses Aplikasi
 
-Setelah berhasil membuat superuser, buka halaman admin di browser:
+Buka browser dan akses:
+
+```
+http://localhost:8000
+```
+
+Untuk masuk ke halaman admin:
 
 ```
 http://localhost:8000/admin
 ```
 
-Login menggunakan akun yang telah dibuat.
-
 ---
 
-## 📂 Struktur Direktori (Opsional)
+## Catatan
 
-```
-.
-├── code/
-│   └── importer2.py
-├── docker-compose.yml
-├── manage.py
-└── ...
-```
-
----
-
-## 📝 Lisensi
-
-Proyek ini dibuat untuk keperluan UAS dan bersifat open source untuk pembelajaran.
+* Pastikan Docker sudah terinstall dan berjalan.
+* File `importer2.py` berisi skrip untuk mengisi data awal.
 
 ```
 
-Jika kamu ingin saya bantu menyisipkan screenshot, diagram, atau penjelasan tambahan tentang fitur project-mu, tinggal beri tahu ya!
+Jika kamu ingin ini dijadikan file `.md`, saya bisa bantu buatkan atau kirimkan. Atau jika ingin ubah styling jadi HTML atau tampil di website, tinggal bilang saja!
 ```
